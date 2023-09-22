@@ -1,4 +1,4 @@
-%% By Simon Avrillon, 2023
+%% By Simon Avrillon, 2023 and updated by Enkhjin Togtokhbayar, 2023.
 
 %% Step 1: Get the MU filters from all the edited files and concatenate them 
 
