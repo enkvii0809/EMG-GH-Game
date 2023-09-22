@@ -1,3 +1,5 @@
+%% By Simon Avrillon, 2023
+
 function MUFilters = getMUfilters(EMG, EMGmask, Distime)
 
 EMG(EMGmask > 0,:) = [];
