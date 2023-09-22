@@ -1,3 +1,5 @@
+%% By Simon Avrillon, 2023
+
 function [PulseT, Distime, exFactor] = getPulseT(EMG, EMGmask, MUFilters, fsamp)
 
 EMG(EMGmask > 0,:) = [];
