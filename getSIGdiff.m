@@ -1,3 +1,5 @@
+%% By Simon Avrillon, 2023
+
 function [datadiff, mask] = getSIGdiff(data,xy, EMGmask)
 
 data = bandpassingals(data,2048,1);
