@@ -1,3 +1,5 @@
+%% By Simon Avrillon, 2023
+
 function [prinComp,evals]= getPCA(data)
 % subtract the cross-trial mean
 dataCT = data - mean(data,2);
